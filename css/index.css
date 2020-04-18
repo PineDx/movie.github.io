@@ -44,15 +44,15 @@ ul {
   transform: skewY(-8deg);
   position: relative;
 }
-.navigate ul li span{
-    display: inline-block;
-    width: 100%;
-    height: 70px;
-    font-size: 18px;
-    font-weight: 600;
-    color: #fff;
-    text-align: center;
-    line-height: 70px;
+.navigate ul li span {
+  display: inline-block;
+  width: 100%;
+  height: 70px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  line-height: 70px;
 }
 .navigate ul li::after {
   content: "";
@@ -100,26 +100,26 @@ ul {
 .movielist li > .btn {
   width: 180px;
   height: 100%;
-  background-color: rgba(96 , 185, 249, 1);
+  background-color: rgba(96, 185, 249, 1);
   cursor: pointer;
   transition: 0.3s;
 }
-.movielist li > .btn:hover{
-     background-color: rgba(205, 132, 241, 0.4);
-    transform: scale(1.1) translateX(5px);
-    color: black;
+.movielist li > .btn:hover {
+  background-color: rgba(205, 132, 241, 0.4);
+  transform: scale(1.1) translateX(5px);
+  color: black;
 }
-.movielist li > .btn >span{
-    display: inline-block;
-    width: 100%;
-    height:50px;
-    font-size: 24px;
-    font-weight: 700;
-    text-align: center;
-    line-height: 50px;
-    color: #2c3e50;
+.movielist li > .btn > span {
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 50px;
+  color: #2c3e50;
 }
-.moviebox > .info{
+.moviebox > .info {
   position: fixed;
   top: 50%;
   right: 50px;
@@ -132,7 +132,7 @@ ul {
   transform: translate(0, -50%);
   background-color: #18dcff;
 }
-.moviebox > .info::after{
+.moviebox > .info::after {
   content: "";
   position: absolute;
   left: 0;
@@ -148,32 +148,51 @@ ul {
   transform: translate(0, 0);
   opacity: 0;
 }
-.moviebox > .info >span{
-    display: inline-block;
-    width: 100%;
-    height: 40px;
-    padding-left: 10px;
-    font-size: 14px;
-    font-weight: 600;
-    color: #fff;
-    text-align: left;
-    line-height: 40px;
+.moviebox > .info > span {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  text-align: left;
+  line-height: 40px;
 }
-.moviebox > .info > .info_title{
+.moviebox > .info > .info_title {
   text-align: center;
   font-size: 16px;
 }
-.moviebox > .info >span a{
+.moviebox > .info > span a {
   text-decoration: none;
   color: #2c3e50;
   cursor: pointer;
 }
 
-@media all and (max-width: 1200px){
-    .navigate{
-      display: none;
-    }
-    .moviebox > .info{
-      display: none;
-    }
+@media all and (max-width: 1200px) {
+  .navigate {
+    display: none;
+  }
+  .moviebox > .info {
+    display: none;
+  }
+  .movielist li > span {
+    display: inline-block;
+    padding-left: 0;
+    height: 45px;
+    flex: 1;
+    background-color: #18dcff;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 45px;
+    overflow: hidden;
+  }
+  .movielist li > .btn {
+    width: 100px;
+    height: 100%;
+    background-color: rgba(96, 185, 249, 1);
+    cursor: pointer;
+    transition: 0.3s;
+  }
 }
