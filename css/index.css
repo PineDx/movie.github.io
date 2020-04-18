@@ -84,6 +84,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #18dcff;
 }
 .movielist li > span {
   display: inline-block;
@@ -168,7 +169,6 @@ ul {
   color: #2c3e50;
   cursor: pointer;
 }
-
 @media all and (max-width: 1200px) {
   .navigate {
     display: none;
@@ -176,23 +176,26 @@ ul {
   .moviebox > .info {
     display: none;
   }
+}
+@media all and (max-width: 910px) {
   .movielist li > span {
-    display: inline-block;
-    padding-left: 0;
-    height: 45px;
-    flex: 1;
-    background-color: #18dcff;
-    font-size: 18px;
-    font-weight: 600;
-    text-align: left;
-    line-height: 45px;
-    overflow: hidden;
-  }
-  .movielist li > .btn {
-    width: 100px;
-    height: 100%;
-    background-color: rgba(96, 185, 249, 1);
-    cursor: pointer;
-    transition: 0.3s;
-  }
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  flex: 1;
+  background-color: #18dcff;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 50px;
+  overflow: hidden;
+}
+.movielist li > .btn {
+  width: 80px;
+  height: 100%;
+  background-color: rgba(96, 185, 249, 1);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
 }
