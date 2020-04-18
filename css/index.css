@@ -170,6 +170,9 @@ ul {
   cursor: pointer;
 }
 @media all and (max-width: 1200px) {
+  .navigate {
+    display: none;
+  }
   .moviebox > .info {
     display: none;
   }
