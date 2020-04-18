@@ -95,6 +95,7 @@ ul {
   font-weight: 600;
   text-align: left;
   line-height: 50px;
+  overflow: hidden;
 }
 .movielist li > .btn {
   width: 180px;
@@ -166,4 +167,13 @@ ul {
   text-decoration: none;
   color: #2c3e50;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1200px){
+    .navigate{
+      display: none;
+    }
+    .moviebox > .info{
+      display: none;
+    }
 }
