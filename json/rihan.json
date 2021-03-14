@@ -1,7 +1,19 @@
 {
     "catgory": "日韩电影",
-    "count": 321,
+    "count": 329,
     "group": [
+        {
+            "title": "2019年动画《即便明天世界终结》BD日语中字",
+            "filelink": "ftp://ygdy8:ygdy8@yg10.dydytt.net:4005/阳光电影www.ygdy8.com.即便明天世界终结.BD.1080p.日语中字.mkv"
+        },
+        {
+            "title": "2020年动画《新干线变形机器人剧场版》BD国日双语中字",
+            "filelink": "ftp://ygdy8:ygdy8@yg05.dydytt.net:3001/阳光电影www.ygdy8.com.新干线变形机器人剧场版.BD.1080p.国日双语中字.mkv"
+        },
+        {
+            "title": "2020年悬疑惊悚《电话/声命线索》BD韩语中字",
+            "filelink": "ftp://ygdy8:ygdy8@yg05.dydytt.net:2005/阳光电影www.ygdy8.com.电话.BD.1080p.韩语中字.mkv"
+        },
         {
             "title": "2020年惊悚动作《釜山行2：半岛》BD韩语中字",
             "filelink": "ftp://ygdy8:ygdy8@yg10.dydytt.net:6001/阳光电影www.ygdy8.com.釜山行2：半岛.BD.1080p.韩语中字.mkv"
@@ -1241,38 +1253,6 @@
         {
             "title": "2013年获奖喜剧《七号房的礼物》720p.BD中字",
             "filelink": "ftp://dygod1:dygod1@d070.dygod.org:1101/[阳光电影www.ygdy8.com].七号房的礼物.BD.720p.中文字幕.rmvb"
-        },
-        {
-            "title": "2013年奇幻动画《剑风传奇 黄金时代篇3：降临》720p.BD中字",
-            "filelink": "ftp://dygod1:dygod1@d070.dygod.org:1082/[电影天堂-www.dy2018.net].剑风传奇黄金时代篇3：降临.BD.720p.中文字幕.rmvb"
-        },
-        {
-            "title": "2013年惊悚悬疑《新世界》720p.BD中字",
-            "filelink": "ftp://dygod1:dygod1@d245.dygod.org:6016/[电影天堂www.dy2018.net].新世界.BD.720p.中文字幕.rmvb"
-        },
-        {
-            "title": "2013年动作《传说的拳头》1024x576.BD中字",
-            "filelink": "ftp://dygod1:dygod1@d139.dygod.org:9016/[电影天堂www.dy2018.net].传说的拳头.HD.1024x576.中文字幕.rmvb"
-        },
-        {
-            "title": "2013年新海诚最新力作《言语之庭》720p.BD中字",
-            "filelink": "ftp://dygod1:dygod1@d070.dygod.org:1069/[电影天堂-www.dy2018.net].言语之庭.BD.1280x720.中文字幕.rmvb"
-        },
-        {
-            "title": "2012年惊悚恐怖《恶之教典》1024x576.BD中字",
-            "filelink": "ftp://dygod1:dygod1@d023.dydytt.com:8002/[电影天堂www.dy2018.net].恶之教典.BD.1024x576.中文字幕.rmvb"
-        },
-        {
-            "title": "2012年最新恐怖《凌晨三点》720p.BD中字",
-            "filelink": "ftp://dygod1:dygod1@d070.dygod.org:1046/[电影天堂-www.dy2018.net].凌晨三点.BD.1280x720.中文字幕.rmvb"
-        },
-        {
-            "title": "孙艺珍2012年最新《摩天楼/火海108》720p.BD中字",
-            "filelink": "ftp://dygod1:dygod1@d079.dygod.org:9047/[电影天堂-www.dy2018.net].摩天楼.BD.1280x720.中文字幕.rmvb"
-        },
-        {
-            "title": "2012年喜剧《亚子的秘密/甜蜜小天使》720p.BD中字",
-            "filelink": "ftp://dygod1:dygod1@d070.dygod.org:1033/[电影天堂-www.dy2018.net].亚子的秘密.BD.1280x720.中文字幕.rmvb"
         }
     ]
 }
