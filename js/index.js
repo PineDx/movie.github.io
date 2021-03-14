@@ -51,11 +51,16 @@
       }
     };
   }
+
+  function toTop(){
+    window.scrollTo(0, document.body.scrollTop);
+  }
   let navs = document.querySelectorAll("#nav");
   navs.forEach((nav)=>{
     nav.addEventListener("click", function () {
         let url = this.querySelector("span").attributes[0].value;
         getjson("get", url);
+        toTop();
     });
   });
 })();
